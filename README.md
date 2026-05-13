@@ -71,3 +71,41 @@ Final model:
 
 ```text
 Q_VENTAS = -0.329279 + 4.749583*T_HABLADO_HORAS - 4.062390*T_ACW_HORAS
+
+## Visual Results
+
+### Model Comparison
+
+The time-based model showed the strongest explanatory power among the evaluated model groups.
+
+![Model Comparison](images/01_model_comparison.png)
+
+### Standardized Variable Impact
+
+Talk time showed the strongest positive association with sales, while ACW represented the main operational friction.
+
+![Standardized Variable Impact](images/02_standardized_variable_impact.png)
+
+### Sales vs Talk Time
+
+The relationship between talk time and sales shows a clear positive pattern. This supports the finding that effective commercial conversation time is the main operational driver.
+
+![Sales vs Talk Time](images/03_sales_vs_talk_time.png)
+
+### Sales vs ACW
+
+ACW represents post-call work. When ACW increases excessively, it reduces available commercial capacity.
+
+![Sales vs ACW](images/04_sales_vs_acw.png)
+
+### Actual vs Predicted Sales
+
+The final model shows a strong alignment between actual and predicted sales at supervisor-day-campaign level.
+
+![Actual vs Predicted Sales](images/05_actual_vs_predicted_sales.png)
+
+### Residual Distribution
+
+The residual histogram provides a basic view of how prediction errors are distributed around the model.
+
+![Residual Histogram](images/06_residual_histogram.png)
