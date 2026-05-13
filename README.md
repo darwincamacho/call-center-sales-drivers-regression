@@ -71,6 +71,7 @@ Final model:
 
 ```text
 Q_VENTAS = -0.329279 + 4.749583*T_HABLADO_HORAS - 4.062390*T_ACW_HORAS
+```
 
 ## Visual Results
 
